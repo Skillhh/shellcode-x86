@@ -7,5 +7,6 @@
       your life, not a day job or semi-ordered list of
       instructions found in a thick book.
     </p>
+    <p><i>Chris Anley, John Heasman, Felix “FX” Linder, Gerardo Richarte</i></p>
   </body>
 </html> 
