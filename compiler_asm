@@ -6,7 +6,7 @@
 echo '[+] Assembly with NASM...'
 nasm -felf $1.asm -o obj.o
 
-echp '[+] Linking...'
+echo '[+] Linking...'
 ld -m elf_i386 obj.o -o main
 
 echo '[+] Done!!'
