@@ -1,0 +1,5 @@
+All functions:
+/usr/include/linux/net.h
+
+Specific Function
+/usr/include/asm/unistd_32.h    sys_call
