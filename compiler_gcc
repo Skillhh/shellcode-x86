@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Author: Vivek Ramachandran
+# Contributor: Giovanny Ortegon
+
+echo '[+] Assembling with NASM...'
+nasm -f elf $1.asm -o obj.o
+
+echo '[+] Linking...'
+gcc -m32 obj.o -o main
+
+echo '[+] Done!!'
