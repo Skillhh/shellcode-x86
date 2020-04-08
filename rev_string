@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+""" Import """
+from sys import argv
+
+def main():
+    try:
+        string = argv[1]
+        rev = string[::-1]
+        print("Reversing String...")
+        print("Original: %s" %(string))
+        print("Reverse: %s" %(rev))
+        print("Hex: %s" %(rev.encode().hex()))
+    except:
+        print("Not found argument")
+        print("Try this format: ./rev_string \"string\"")
+
+
+if __name__ == "__main__":
+    main()

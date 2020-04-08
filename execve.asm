@@ -10,8 +10,8 @@ shellcode:
 	mov dword [esi + 8], esi	; Address of /bin/bash -> *argv[]
 	mov dword [esi + 12], ebx	; 0x00000 -> envp[]
 
-	; execve(const char *pathname, 
-	;		 char *const argv[], 
+	; execve(const char *pathname,
+	;		 char *const argv[],
 	;		 char *const envp[]);
 	lea ebx, [esi]
 	lea ecx, [esi + 8]
