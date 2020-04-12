@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-unsigned char code[] = "shellcode";
+unsigned char code[] = \
+"shellcode";
 
 int main()
 {
